@@ -18,6 +18,7 @@ public class TableFrame extends JFrame {
         super("Invoice Details");
 
         JTable table = new JTable(data,cols);
+        add(table);
     }
    // public static void main(String[] args) {
      //   new TableFrame().setVisible(true);
